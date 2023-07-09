@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ContentComponent } from './content/content.component';
 import { TemplateTestComponent } from './template-test/template-test.component';
+import { CustomerDashboardModule } from './customer-dashboard/customer-dashboard.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TemplateTestComponent } from './template-test/template-test.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CustomerDashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
