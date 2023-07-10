@@ -1,4 +1,18 @@
-<app-template-test></app-template-test>
-<app-navigation></app-navigation>
-<app-content></app-content>
-<app-customer-dashboard></app-customer-dashboard>
+<!-- <app-template-test></app-template-test> -->
+<!-- <app-navigation></app-navigation> -->
+
+<!-- <app-customer-dashboard></app-customer-dashboard> -->
+<!-- <div class="contentPage">
+    <app-content></app-content>
+</div> -->
+
+<div class="navbar">
+    <button class="link" (click)="clickButton('')">Home</button>
+<button class="link" (click)="clickButton('/about')">About</button>
+<button class="link"  (click)="clickButton('/content')">Content</button>
+  </div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+  </div>
+

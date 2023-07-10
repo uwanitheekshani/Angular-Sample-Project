@@ -8,6 +8,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ContentComponent } from './content/content.component';
 import { TemplateTestComponent } from './template-test/template-test.component';
 import { CustomerDashboardModule } from './customer-dashboard/customer-dashboard.module';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CustomerDashboardModule } from './customer-dashboard/customer-dashboard
     MainComponent,
     NavigationComponent,
     ContentComponent,
-    TemplateTestComponent
+    TemplateTestComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
