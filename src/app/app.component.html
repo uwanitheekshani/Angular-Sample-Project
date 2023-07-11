@@ -7,12 +7,23 @@
 </div> -->
 
 <div class="navbar">
-    <button class="link" (click)="clickButton('')">Home</button>
+    <button class="link" (click)="clickButton('/home')">Home</button>
 <button class="link" (click)="clickButton('/about')">About</button>
 <button class="link"  (click)="clickButton('/content')">Content</button>
   </div>
 
+<!-- <h1>Website</h1>
+<a href="/about">About</a>
+<a href="/content">Content</a> -->
 <div class="container">
     <router-outlet></router-outlet>
   </div>
 
+  <!-- <br>
+<br>
+<div>
+<h1 style="color: black;">Counter With Angular</h1>
+<button style="background-color: blueviolet; height: 75px;width: 100px;" (click)="counter('minus')">--</button>
+<p style="font-size: 25px;">Count : {{count}}</p>
+<button style="background-color: green; height: 75px;width: 100px;" (click)="counter('add')">++</button>
+</div> -->

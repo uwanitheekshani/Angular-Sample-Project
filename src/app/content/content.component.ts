@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
+  count=0
+  counter(type:string){
 
+    type==='add' ?this.count++:this.count--;
+
+  }
 }

@@ -9,6 +9,13 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'sample-project';
   heading ='Hello to Angular';
+ 
+  // count=0
+  // counter(type:string){
+
+  //   type==='add' ?this.count++:this.count--;
+
+  // }
 
   constructor(private router: Router) {
   }

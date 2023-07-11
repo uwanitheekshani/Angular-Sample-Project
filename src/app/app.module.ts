@@ -10,6 +10,8 @@ import { TemplateTestComponent } from './template-test/template-test.component';
 import { CustomerDashboardModule } from './customer-dashboard/customer-dashboard.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+// import { StoreModule } from '@ngrx/store';
+// import { counterReducer } from './main/state/counter.reducer';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CustomerDashboardModule
+    CustomerDashboardModule,
+    // StoreModule.forRoot({counter: counterReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

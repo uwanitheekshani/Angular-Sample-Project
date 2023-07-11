@@ -2,3 +2,13 @@
     line-height: 2rem;
     font-size: 1.2em;
   }
+
+  .mypic{
+      background-image: url('../images/photo_2023-07-11_10-18-12.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 30vh;
+      width: 15vw;
+      display: flex;
+      border: 4px solid #858597;
+  }
